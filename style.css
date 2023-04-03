@@ -1,0 +1,8 @@
+.menu li:hover {
+    border-bottom: 2px solid rgb(105, 105, 200);
+    color: rgb(105, 105, 200);
+}
+
+.footer-section {
+    background-color: rgb(63, 63, 63);
+}
