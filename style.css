@@ -3,14 +3,48 @@
     color: rgb(105, 105, 200);
 }
 
-.footer-section {
-    background-color: rgb(63, 63, 63);
+.button:hover {
+    background-color: rgb(0, 195, 255);
 }
 
-.button:hover{
-    background-color: rgb(0,195,255);
+h4 {
+    padding-left: 100px;
 }
 
-h4{
-    padding-left:100px;
+.typing-sections {
+    background: linear-gradient(24.7deg, #52a0e0 0%, #6cbaf3 27%)
 }
+
+
+/*Animation typing*/
+
+.typing-animation {
+    overflow: hidden;
+    border-right: 1px solid #000;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end) infinite alternate, blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #000;
+    }
+}
+
+
+/*End of Animation typing*/
