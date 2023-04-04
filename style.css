@@ -1,5 +1,5 @@
 .menu li:hover {
-    border-bottom: 2px solid rgb(105, 105, 200);
+    border-bottom:  rgb(105, 105, 200);
     color: rgb(105, 105, 200);
 }
 
@@ -48,3 +48,9 @@ h4 {
 
 
 /*End of Animation typing*/
+/*Footer section*/
+.bg-color {
+    background-color: #4b4848 !important;
+  }
+  
+  
